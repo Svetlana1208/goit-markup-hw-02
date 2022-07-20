@@ -21,7 +21,12 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 
-    
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+   
 }
 
 ul {
@@ -38,6 +43,11 @@ a {
 
 .logo {
     color: var(--logo-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo span {
@@ -46,12 +56,22 @@ a {
 
 .site-nav .link {
     color: var(--title-text-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link.current {
     color: var(--accent-color);
+}
+
+.site-contacts {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-contacts .link:hover,
@@ -66,18 +86,63 @@ a {
 }
 h1 {
     color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
 
 /* Основная часть */
 
-h2,
+h2 {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
 h3 {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.cowokers h3 {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    text-transform: none;
+}
+
+.cowokers p {
+
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 /* Футер */
@@ -86,20 +151,25 @@ footer {
     background-color: var(--secondary-background-color);
 }
 
-.logo-footer {
+.footer {
     color: var(--primary-white-color);
-}
-
-.logo-footer>span {
-    color: var(--accent-color);
 }
 
 .adress {
     color: var(--primary-white-color);
+
+    font-style: normal;
 }
 
 .contacts {
-    color: #FFFFFF99;
+    color: color: rgba(255, 255, 255, 0.6);
+
+    font-style: normal;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
 }
 
 /* Портфолио */
@@ -107,11 +177,34 @@ footer {
 .portfolio-button {
     color: var(--title-text-color);
     background-color: var(--secondary-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    cursor: pointer;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+}
+
+.our-projects h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.our-projects p {
+    font-size: 16px;
+    line-height: 1.88;
 }
 
